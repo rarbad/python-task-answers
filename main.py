@@ -20,3 +20,12 @@
 # name=input("enter your name")
 # vowel_count= sum(name.count(vowel)for vowel in "aeiou")
 # print("number of vowel in the name:",{vowel_count})
+
+# upper case & lower case string
+# name=input("enter a string")
+# print(name.upper())
+# print(name.lower())
+
+
+  
+  
