@@ -6,8 +6,11 @@
 
 #  replace every 'a'in a string with @
 # a= "revatiarbad"
-# print(a.replace("a","@"))
- 
+# print(a.replace("a","@"))# upper case & lower case string
+# name=input("enter a string")
+# print(name.upper())
+# print(name.lower())
+  
 # reverse a string without using reverse()
 # input_string= input ("enter your name")
 # surname=input_string[::-1]
