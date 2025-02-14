@@ -28,6 +28,17 @@
 # print(name.lower())
   
   
+# bill_amount=float(input ("enter a bill_ amount"))
+# message=f"my bil_amount is {bill_amount}"
+# print(message)
+
+# a="revati,arbad ! "
+# a_new=a.strip()
+# print(a)
+
+a="revati gaytri, revati, arbad"
+x=a.count("revati")
+print(x)
 
 
  
