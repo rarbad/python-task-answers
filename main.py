@@ -40,5 +40,47 @@ a="revati gaytri, revati, arbad"
 x=a.count("revati")
 print(x)
 
+# extract a substring from a gifind the maximun and minimum number in a list
+# num=[2,8,8,34,65,67,87,96,345,987,65]
+# num.sort()
+# print(num)
+
+# remove duplicate from list
+# a=["apple","banana","kiwi","mango","apple","cherry"]
+# a=set(("apple","banana","kiwi","mango","apple","cherry"))
+# a=list(a)
+# print(a)
+
+# merge to list and sort the result
+# fruits=["apple","banana","kiwi","mango","apple","cherry"]
+# name=["revati","punam","pooja","pratikshs","gaytri"]
+# add=fruits+name
+# print(add)
+# add.sort()
+# print(add)
+
+# swap the first and last elements of a list
+# a=[4,3,2,8,6,1,5]
+# a[0]="5"
+# print(a)
+# a[6]="4"
+# print(a)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  
