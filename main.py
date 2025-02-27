@@ -65,6 +65,48 @@ print(x)
 # print(a)
 # a[6]="4"
 # print(a)
+task:16
+letters=["a","b","c","d","e","f"]
+print(letters[2:4])
+print(letters[:3])
+
+task:18
+name=["revati","punam","pooja","gaytri","aditi","dipali"]
+name.insert(2,"siddhi")
+print(name)
+
+task:19
+name=["revati","punam","pooja","gaytri","aditi","dipali"]
+add=("list_to_string:",name)
+print(add)
+
+task:20
+num=[3,6,8,9,5,6,7]
+name=["revati","punam","pooja","gaytri","aditi","dipali"]
+num.append("4")
+print (num)
+name.remove("pooja")
+print(name)
+name.clear()
+print(name)
+
+task;21
+tuple1 =(1,2,3,4,5)
+tuple2 =(3,4,5,6,7)
+common_elements=tuple(set(tuple 1) & set(tuple 2)
+print("common_elements:",common_ellements)
+
+task:22
+name=["revati","punam","pooja","gaytri","aditi","dipali"]
+x=list(name)
+x[2] ="siddhi"
+name=tuple(x)
+print(name)
+
+
+
+
+
 
 
 
