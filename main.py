@@ -1,5 +1,69 @@
 # extract username from email
 # email=input("enter your email")
+task:23
+vegetables=("bringle","tomato","potato","chili")
+(one,two,three,four)=vegetables
+print(one)
+print(two)
+print(three)
+print(four)
+
+task:24
+name=("pooja","punam","kirti","siddhi","pooja","gaytri","pooja")
+x=name.count("pooja")
+print(x)
+
+task:25
+vegetables=("bringle","tomato","potato","chili")
+num=(2,34,56,8,96,)
+c=vegetables+num
+print(c)
+
+task:26
+colours=("red","yellow","pink","green","violet")
+if "pink" in colours:
+    print("yes,'pink' are present")
+    
+task:27
+colours=("red","black","yellow","pink","green","violet")
+print(colours [2:6])
+
+task:28
+colours=("red","black","yellow","pink","green","violet")
+(One,two,*three)=colours
+print(One)
+print(two)
+print(three)
+
+
+task:29
+My_tuple=(10,20,30,40,50)
+element=30
+print(My_tuple.index(element))
+
+task:30
+colours=("red","black","yellow","pink","green","violet")
+New_tuple=colours*3
+print(New_tuple)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # username=input("enter your username")
 # print(email)
 # print(username)
