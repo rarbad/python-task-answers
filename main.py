@@ -48,6 +48,125 @@ print(New_tuple)
 
 
 
+task:31
+students1 = dict(Name= "revati", Age= 22, Country="India")
+print(students1)
+
+task:32
+stud1={
+    "Name":"revati",
+    "Age":21,
+    "ciyt":"parbhani",
+    "Grade":"A+"
+}
+print(stud1["Age"])
+print(stud1.get("Name"))
+
+task:33
+stud1={
+    "Name":"revati",
+    "Age":21,
+    "ciyt":"parbhani",
+    "Grade":"A+"
+}
+print(stud1.keys())
+
+task:34
+stud1={
+    "Name":"revati",
+    "Age":21,
+    "ciyt":"parbhani",
+    "Grade":"A+"
+}
+print(stud1.values())
+
+task:35
+stud1={
+    "Name":"revati",
+    "Age":21,
+    "ciyt":"parbhani",
+    "Grade":"A+"
+}
+print(stud1.items())
+
+task:36
+stud1={
+    "Name":"revati",
+    "Age":21,
+    "ciyt":"parbhani",
+    "Grade":"A+"
+}
+if "name" in stud1:
+    print("yes,'name' key exist. in dict")
+else:
+    print("yes 'name' key does not exist. in dict")
+    
+task:37    
+stud1={
+    "Name":"revati",
+    "Age":21,
+    "city":"parbhani",
+    "Grade":"A+"
+} 
+print(stud1["city"])
+stud1.update({"city":"pune"})
+print(stud1["city"])
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
