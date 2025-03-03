@@ -113,6 +113,37 @@ stud1.update({"city":"pune"})
 print(stud1["city"])
 
 
+task:38
+tud1={
+    "name":"revati",
+    "Age":22,
+    "city":"parbhani",
+    "Grade":"A+"
+}
+stud1["adhar no"]=917644697300
+print(stud1)
+
+task:39
+students1={
+    "name":"revati",
+    "Age":22,
+    "City":"parbhani",
+    "Grade":"A+"
+}
+stud1.pop("city")
+print(stud1)
+
+task:41
+stud1={
+    "Name":"revati",
+    "Age":22,
+    "City":"parbhani",
+    "Grade":"A+"
+}
+stud1. clear()
+print(stud1)
+
+
 
 
 
