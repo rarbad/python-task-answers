@@ -143,7 +143,43 @@ stud1={
 stud1. clear()
 print(stud1)
 
+task:43
+number=int(input("enter a number:"))
+if number>0:
+    print("positive number")
+else:
+    print("negative or zero")
 
+task:44
+marks=int(input("enter a mark of students:"))
+if marks>=90:
+    print("you have got A grade")
+elif marks >=80:
+    print(" you have got B grade")
+elif marks>=70:
+    print("you have got C grade")
+else:
+    print("you have windows programming fail")
+    
+task:45
+num=int(input("ente a number"))
+if num>=1:
+    print("positive number")
+elif num>=1:
+    num= int(input("number is even or number is odd"))
+if num==0:
+    print("positive number is even")
+else:
+    print("negative number is odd")
+
+
+
+
+    
+    
+    
+    
+    
 
 
 
