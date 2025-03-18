@@ -172,7 +172,11 @@ if num==0:
 else:
     print("negative number is odd")
 
-
+task:47
+ i=1
+    while i<10:
+        print(i)
+        i+=
 
 
     
