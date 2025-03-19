@@ -193,7 +193,19 @@ def myfun(a,b):
     Result=myfun(4,8)
     print("sum:",Result)
 
+task:52
+square=lambda x:x**2
+print(square)
 
+task:53
+def myfun(fun,num):
+    return fun(num)
+    square=lambda x:x**2
+    cube=lambda x:x**3
+    print(myfun(square,4))
+    print(myfun(cube,3))
+    
+    
 
     
     
