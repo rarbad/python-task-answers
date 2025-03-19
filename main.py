@@ -178,6 +178,22 @@ task:47
         print(i)
         i+=
 
+task:49
+cities=("pune","mumbai","delhi","kolkata","parbhani")
+for x in cities:
+     print(x)
+    
+task:50 
+for x in range (2,21,2):
+    print(x)
+
+task:51    
+def myfun(a,b):
+    return a+b
+    Result=myfun(4,8)
+    print("sum:",Result)
+
+
 
     
     
