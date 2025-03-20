@@ -205,7 +205,25 @@ def myfun(fun,num):
     print(myfun(square,4))
     print(myfun(cube,3))
     
-    
+task:54
+number=(45,23,98,65,43,96,12)
+sum_element=sum(number)
+max_element=max(number)
+min_element=min(number)
+print("sum of element:", sum_element)
+print("maximum of element:",max_element)
+print("minimum of element:",min_element)
+
+task:55
+import json
+x={"name":"revati","age":22,"city":"parbhani"}
+y=json.dumps(x)
+print(y)
+
+task:56
+import json
+x={"name":"omkar","age":21,"city":"parbhani"}
+print(y) 
 
     
     
