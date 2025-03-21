@@ -226,6 +226,27 @@ x={"name":"omkar","age":21,"city":"parbhani"}
 print(y) 
 
     
+from prettytable import PrettyTable
+table=PrettyTable()
+table.field_names = ["date","expense","amount"]
+table_date =1
+def add_table(d,e,a):
+  global table_date
+  table.add_row([d,e,a])
+  table_date +=1
+
+def view_table():
+  print(table)
+
+add_table("14/3/2025","food",200)
+add_table("12/3/2025","clothes",2000)
+add_table("13/3/2025","entertainment",5000)
+view_table()
+
+def calculate_total_amount():
+  total=sum(int(row[2])for row in table._rows)
+  print("Total Expense:",total)
+calculate_total_amount()
     
     
     
