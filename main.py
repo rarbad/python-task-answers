@@ -249,7 +249,8 @@ def calculate_total_amount():
 calculate_total_amount()
 
     
-sample tasks.md    
+sample tasks.md 
+task:1
 print("hellow ,world!")
 a=4
 b=6
@@ -258,6 +259,34 @@ print(a+b)
 print(a-b)
 print(a*b)
 print(a/b)
+
+task:2
+x=4
+y="revati"
+z=2.34
+w=True
+
+print(type(x))
+print(type(y))
+print(type(z))
+print(type(w))
+
+task:3
+my_string="hellow, world!"
+my_float=2.65
+my_int=21
+print("string:",my_string)
+print("float:",my_float)
+print("int:",my_int)
+
+
+
+
+
+
+
+
+
 
 
 
