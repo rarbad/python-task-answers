@@ -247,11 +247,17 @@ def calculate_total_amount():
   total=sum(int(row[2])for row in table._rows)
   print("Total Expense:",total)
 calculate_total_amount()
-    
-    
-    
-    
 
+    
+sample tasks.md    
+print("hellow ,world!")
+a=4
+b=6
+
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
 
 
 
